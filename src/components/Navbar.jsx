@@ -2,6 +2,8 @@ import { useState } from "react";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from "../hooks/useMediaQuery";
 
+import menuIcon from "../assets/menu-icon.svg"
+
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase()
   return(
@@ -17,7 +19,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 }
 
 const Navbar = ({ selectedPage, setSelectedPage }) => {
-  const [isMenuToggle, setIsMenuToggled] = useState(false)
+  const [isMenuToggled, setIsMenuToggled] = useState(false)
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)")
 
   return (
@@ -33,8 +35,34 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
             />
+             <Link 
+            page="Habilidades"
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+            />
+             <Link 
+            page="Projetos"
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+            />
+             <Link 
+            page="Recomendações"
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+            />
+             <Link 
+            page="Contato"
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+            />
           </div>
-        ) : (<div></div>)}
+        ) : (
+            <button 
+            className="rounded-full bg-purple p-2"
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+            >
+              <img alt="menu-icon" src={menuIcon} />
+            </button>)}
       </div>
     </nav>
   )
