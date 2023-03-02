@@ -5,7 +5,7 @@ const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
-      className="hover:text-purple transition duration-500"
+      className="hover:text-blue transition duration-500"
       href="https://www.linkedin.com/in/hugo-aguiar-a25839245/"
       target="_blank"
       rel="noreferrer"
@@ -14,7 +14,7 @@ const SocialMediaIcons = () => {
       </a>
 
       <a
-      className="hover:text-purple transition duration-500"
+      className="hover:text-blue transition duration-500"
       href="https://github.com/aguiarHugo"
       target="_blank"
       rel="noreferrer"
@@ -23,7 +23,7 @@ const SocialMediaIcons = () => {
       </a>
 
       <a
-      className="hover:text-purple transition duration-500"
+      className="hover:text-blue transition duration-500"
       href="https://www.instagram.com/h4guiar/"
       target="_blank"
       rel="noreferrer"
