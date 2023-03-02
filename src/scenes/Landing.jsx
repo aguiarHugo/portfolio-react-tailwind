@@ -63,11 +63,7 @@ const Landing = ({setSelectedPage}) => {
             </p>
 
             <p className="mt-16 mb-7 text-sm text-center md:text-start">
-              Lorem ipsum dolor sit amet, consectetur adipisicing 
-              elit. Obcaecati, molestias, architecto provident, 
-              consequuntur blanditiis accusamus ratione repellat
-               ut distinctio saepe temporibus? Quia minus error 
-              incidunt tempora corrupti aut excepturi in.
+              Desenvolvedor Front-end
             </p>
           </motion.div>
 
