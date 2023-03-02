@@ -47,7 +47,7 @@ function App() {
     <div className="w-5/6 mx-auto md:h-full">
       <MySkills />
     </div>
-    <div className="mt-32">
+    <div className="md:mt-32">
       <LineGradient />
     </div>
     <div className="w-5/6 mx-auto">
@@ -57,7 +57,7 @@ function App() {
     <div className="w-5/6 mx-auto md:h-full">
       <Testimonials />
     </div>
-    <div className="mt-32">
+    <div className="md:mt-32">
       <LineGradient />
     </div>
     <div className="w-5/6 mx-auto md:h-full">

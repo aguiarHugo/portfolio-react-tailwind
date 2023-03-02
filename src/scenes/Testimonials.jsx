@@ -8,7 +8,7 @@ const Testimonials = () => {
 
 
   return (
-    <section id="testemunhos" className="pt-32 pb-16">
+    <section id="testemunhos" className="pt-28 pb-16">
       <motion.div
           className='md:w-1/3 text-center md:text-left'
           initial="hidden"
@@ -23,9 +23,9 @@ const Testimonials = () => {
           <p className='font-playfair font-semibold text-4xl mb-5'>
             TESTEMUNHOS
           </p>
-          <LineGradient width='mx-auto w-2/5' />
+          <LineGradient width='w-full md:mx-auto md:w-2/5' />
           <p className='mt-10'>
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga velit sapiente 
+           Veja o que a galera tem falado sobre mim
           </p>
         </motion.div>
 
@@ -43,7 +43,7 @@ const Testimonials = () => {
            >
             <p className="font-playfair text-6xl">“</p>
             <p className="text-center text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ab incidunt 
+            Em breve
             </p>
            </motion.div>
 
@@ -60,7 +60,7 @@ const Testimonials = () => {
            >
             <p className="font-playfair text-6xl">“</p>
             <p className="text-center text-xl">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ab incidunt 
+            Em breve 
             </p>
            </motion.div>
 
@@ -77,7 +77,7 @@ const Testimonials = () => {
            >
             <p className="font-playfair text-6xl">“</p>
             <p className="text-center text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ab incidunt             .
+            Em breve             .
             </p>
            </motion.div>
         </div>

@@ -19,7 +19,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contato" className="py-48">
+    <section id="contato" className="py-32">
       <motion.div
           className="flex justify-center w-full"
           initial="hidden"
@@ -33,10 +33,10 @@ const Contact = () => {
         >
             <div>
               <p className='font-playfair font-semibold text-4xl'>
-                ENTRE EM <span className="text-purple">CONTATO</span>
+                FALE <span className="text-purple">COMIGO</span>
               </p>
               <div className="flex justify-end my-5">
-                <LineGradient width='w-1/2'/>
+                <LineGradient width='w-36'/>
               </div>
             </div>
         </motion.div>
