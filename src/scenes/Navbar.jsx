@@ -4,6 +4,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 
 import menuIcon from "../assets/menu-icon.svg"
 import closeIcon from "../assets/close-icon.svg"
+import logo from '../assets/logo.png'
 
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
@@ -28,7 +29,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair text-3xl font-bold">HA</h4>
+        <img src={logo} alt="logo" />
 
         {/*DESKTOP */ }
         {isAboveSmallScreens ? (
