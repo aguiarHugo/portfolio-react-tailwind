@@ -11,7 +11,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   return(
     <AnchorLink
     className={`${selectedPage === lowerCasePage ? "text-white" : ""}
-      hover:text-white transition duration-500`}
+      hover:text-yellow transition duration-500`}
     href={`#${lowerCasePage}`}
     onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -42,11 +42,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             page="Habilidades"
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
+
             />
              <Link 
             page="Projetos"
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
+
             />
              <Link 
             page="Recomendações"
@@ -84,16 +86,19 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                     page="Home"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+
                   />
                   <Link 
                     page="Habilidades"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+
                   />
                   <Link 
                     page="Projetos"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
+
                   />
                   <Link 
                     page="Recomendações"

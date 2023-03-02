@@ -5,6 +5,7 @@ import Navbar from './scenes/Navbar'
 import DotGroup from './scenes/DotGroup'
 import Landing from './scenes/Landing'
 import MySkills from './scenes/MySkills'
+import Projects from './scenes/Projects'
 
 import LineGradient from './components/LineGradient'
 
@@ -24,7 +25,7 @@ function App() {
   }, [])
 
   return (
-   <div className="app bg-deep-blue">
+   <div className="app bg-bg-dark">
     <Navbar 
       isTopOfPage={isTopOfPage}
       selectedPage={selectedPage}
@@ -43,7 +44,12 @@ function App() {
     <div className="w-5/6 mx-auto md:h-full">
       <MySkills />
     </div>
-
+    <div className="mt-10">
+      <LineGradient />
+    </div>
+    <div className="w-5/6 mx-auto">
+      <Projects />
+    </div>
    </div>
   );
 }

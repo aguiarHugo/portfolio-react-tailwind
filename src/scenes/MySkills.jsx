@@ -7,7 +7,7 @@ import skillsImg from '../assets/skills-image.png'
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
   return (
-    <section id="skills" className='pt-10 pb-24'>
+    <section id="habilidades" className='pt-10 pb-24'>
       {/* HEADER AND IMG */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -27,8 +27,6 @@ const MySkills = () => {
           <LineGradient width='w-1/3' />
           <p className='mt-10 mb-7'>
            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga velit sapiente 
-           harum ipsa praesentium, nobis iure minima atque ea optio enim sed 
-           odio deleniti aperiam a! Ut, velit beatae! Corrupti?
           </p>
         </motion.div>
 
@@ -74,8 +72,6 @@ const MySkills = () => {
               </div>
               <p className='mt-5'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquam sit 
-                cupiditate dolore molestias autem nihil nemo necessitatibus repellendus, 
-                saepe soluta veritatis pariatur quis qui, voluptas porro iusto, quae perferendis.
               </p>
             </motion.div>
 
@@ -99,8 +95,6 @@ const MySkills = () => {
               </div>
               <p className='mt-5'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquam sit 
-                cupiditate dolore molestias autem nihil nemo necessitatibus repellendus, 
-                saepe soluta veritatis pariatur quis qui, voluptas porro iusto, quae perferendis.
               </p>
             </motion.div>
             {/* CREATIVE */}
@@ -123,12 +117,9 @@ const MySkills = () => {
               </div>
               <p className='mt-5'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquam sit 
-                cupiditate dolore molestias autem nihil nemo necessitatibus repellendus, 
-                saepe soluta veritatis pariatur quis qui, voluptas porro iusto, quae perferendis.
               </p>
             </motion.div>
           </div>
-          
         </div>
       </div>
     </section>
