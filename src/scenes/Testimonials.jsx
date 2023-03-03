@@ -21,7 +21,7 @@ const Testimonials = () => {
            }}
         >
           <p className='font-playfair font-semibold text-4xl mb-5'>
-            TESTEMUNHOS
+            DEPOIMENTOS
           </p>
           <LineGradient width='w-full md:mx-auto md:w-2/5' />
           <p className='mt-10'>
