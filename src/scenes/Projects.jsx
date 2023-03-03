@@ -66,7 +66,7 @@ const Projects = () => {
                 >
                   UI Responsiva
                 </div>
-                <a href='https://github.com/aguiarhugo' target="_blank" rel="noreferrer">
+                <a href='https://rocketnotes-web.vercel.app/' target="_blank" rel="noreferrer">
                   <motion.div variants={projectVariant} className="relative">
                     <div className={overlayStyles}>
                       <p className="text-2xl font-playfair">Rocket Notes</p>
@@ -76,7 +76,7 @@ const Projects = () => {
                   </motion.div>
                 </a>
 
-                <a href='https://github.com/aguiarhugo' target="_blank" rel="noreferrer">
+                <a href='https://restaurant-ui-react.netlify.app/' target="_blank" rel="noreferrer">
                 <motion.div variants={projectVariant} className="relative">
                   <div className={overlayStyles}>
                     <p className="text-2xl font-playfair">Gerích</p>
@@ -86,7 +86,7 @@ const Projects = () => {
                 </motion.div>
                 </a>
 
-                <a href='https://github.com/aguiarhugo' target="_blank" rel="noreferrer">
+                <a href='https://ui-twitter-hugo.netlify.app/' target="_blank" rel="noreferrer">
                 <motion.div variants={projectVariant} className="relative">
                 <div className={overlayStyles}> 
                     <p className="text-2xl font-playfair">Twitter UI Clone</p>
@@ -96,11 +96,11 @@ const Projects = () => {
                 </motion.div>
                 </a>
 
-                <a href='https://github.com/aguiarhugo' target="_blank" rel="noreferrer">
+                <a href='https://ui-gpt3.netlify.app/' target="_blank" rel="noreferrer">
                 <motion.div variants={projectVariant} className="relative">
                   <div className={overlayStyles}>
-                    <p className="text-2xl font-playfair">Landing Page</p>
-                    <p className="mt-6">Como o assunto do momento é IA, desenvolvi uma landing page com design focado nesse novo mundo em que estamos vivendo.</p>
+                    <p className="text-2xl font-playfair">Landing Page GPT-3</p>
+                    <p className="mt-6"> Landing page desenvolvida com o tema IA</p>
                   </div>
                   <img src={project4} alt="Projeto 4" />
                 </motion.div>
