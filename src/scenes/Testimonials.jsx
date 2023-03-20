@@ -8,7 +8,7 @@ const Testimonials = () => {
 
 
   return (
-    <section id="testemunhos" className="pt-28 pb-16">
+    <section id="depoimentos" className="pt-28 pb-16">
       <motion.div
           className='md:w-1/3 text-center md:text-left'
           initial="hidden"
