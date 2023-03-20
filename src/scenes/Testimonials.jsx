@@ -2,13 +2,12 @@
 import LineGradient from "../components/LineGradient"
 import { motion } from "framer-motion"
 
-const Testimonials = () => {
-  const testimonialStyles = `mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-  before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2`
+import premiada from '../assets/premiada.png'
 
+const Testimonials = () => {
 
   return (
-    <section id="depoimentos" className="pt-28 pb-16">
+    <section>
       <motion.div
           className='md:w-1/3 text-center md:text-left'
           initial="hidden"
@@ -24,14 +23,11 @@ const Testimonials = () => {
             DEPOIMENTOS
           </p>
           <LineGradient width='w-full md:mx-auto md:w-2/5' />
-          <p className='mt-10'>
-           Veja o que a galera tem falado sobre mim
-          </p>
         </motion.div>
 
-        <div className="md:flex md:justify-between gap-8">
+        <div className="flex justify-center gap-8 my-16">
            <motion.div
-            className={`bg-red ${testimonialStyles} before:content-person1`}
+            className="bg-red max-w-[300px] min-h-[400px] rounded-2xl flex flex-col items-center"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5}}
@@ -41,43 +37,10 @@ const Testimonials = () => {
              visible: { opacity:1, scale:1 }
             }}
            >
-            <p className="font-playfair text-6xl">“</p>
+            <img src={premiada} alt="Premiada" className="w-24 h-24 bg-black rounded-full mt-1"/>
+            <h3 className="font-bold font-playfair text-[22px]">Cachaça Premiada</h3>
             <p className="text-center text-xl">
-            Em breve
-            </p>
-           </motion.div>
-
-           <motion.div
-            className={`bg-purple ${testimonialStyles} before:content-person2`}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5}}
-            transition={{ delay: 0.2, duration: 0.5 }}
-            variants={{ 
-              hidden: { opacity:0, scale: 0.8 },
-             visible: { opacity:1, scale:1 }
-            }}
-           >
-            <p className="font-playfair text-6xl">“</p>
-            <p className="text-center text-xl">
-            Em breve 
-            </p>
-           </motion.div>
-
-           <motion.div
-            className={`bg-blue ${testimonialStyles} before:content-person3`}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5}}
-            transition={{ delay: 0.4, duration: 0.5 }}
-            variants={{ 
-              hidden: { opacity:0, scale: 0.8 },
-             visible: { opacity:1, scale:1 }
-            }}
-           >
-            <p className="font-playfair text-6xl">“</p>
-            <p className="text-center text-xl">
-            Em breve             .
+              <span className="font-playfair text-6xl">“</span> Excelente trabalho, entregou tudo o que prometeu e um pouco mais, fiquei muito satisfeito!
             </p>
            </motion.div>
         </div>
