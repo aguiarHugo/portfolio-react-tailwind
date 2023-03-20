@@ -44,6 +44,7 @@ function App() {
         <Landing setSelectedPage={setSelectedPage} />
     </div>
     <LineGradient />
+    <div className="md:h-6" id="habilidades"/>
     <div className="w-5/6 mx-auto md:h-full">
       <MySkills />
     </div>
@@ -54,6 +55,8 @@ function App() {
       <Projects />
     </div>
     <LineGradient />
+
+    <div className="md:h-24" id="depoimentos"/>
     <div className="w-5/6 mx-auto md:h-full">
       <Testimonials />
     </div>
